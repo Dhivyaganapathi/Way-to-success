@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img{
+    display:block;
+    max-width: 100;
+    height: auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 30px;
+    background-color: black;
+    background-image: radial-gradient(white,black);
+
+}
+h1{
+    position: sticky;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+nav{
+    background-color: white;
+    color: aliceblue;
+    font-size: 45px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: 2px solid black;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color:antiquewhite;
+    font-style: italic;
+    font-weight: 500;
+}
+header{
+    top:0;
+}
+footer{
+    bottom:0
+}
+main{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    border: 3px solid black;
+    border-radius: 75px;
+    margin: 20px;
+    padding: 25px;
+    text-align: center;
+    background-color:rgb(243, 236, 197);
+}
+img{
+    width: 300px;
+    height: 300px;
+    border: 3px double green;
+    border-radius: 200px;
+}
+figcaption{
+    padding: 8px;
+    margin: 7px;
+    font-weight: bolder;
+    color:rgb(104, 9, 13);
+}
+p{
+    font-style:oblique;
+     font-weight: bolder;
+     color: rgb(78, 6, 48);
+}
+footer{
+    background-color: aliceblue;
+    color: rgb(122, 52, 6);
+}
+a:active{
+    color: blueviolet;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: pink;
+}
+a{
+    cursor:grab;
+}
